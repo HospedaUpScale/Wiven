@@ -57,7 +57,7 @@ const faqs = [
 export function FAQ() {
   return (
     <section id="faq" aria-label="FAQ" className="relative py-20 md:py-28 lg:py-32">
-      <div className="container mx-auto px-5 sm:px-8 md:px-6 relative z-10">
+      <div className="container mx-auto px-4 md:px-6 relative z-10">
         <motion.div
           className="max-w-3xl mx-auto text-center mb-12 md:mb-16"
           initial={{ opacity: 0, y: 32 }}

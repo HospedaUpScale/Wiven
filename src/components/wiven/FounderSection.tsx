@@ -12,7 +12,7 @@ export function FounderSection() {
         style={{ background: 'radial-gradient(ellipse, #0a4cff15 0%, transparent 70%)' }}
       />
 
-      <div className="container mx-auto px-5 sm:px-8 md:px-6 relative z-10">
+      <div className="container mx-auto px-4 md:px-6 relative z-10">
         <motion.div
           className="max-w-3xl mx-auto text-center mb-12 md:mb-16"
           initial={{ opacity: 0, y: 32 }}
@@ -45,7 +45,7 @@ export function FounderSection() {
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-3xl overflow-hidden border border-zinc-800/60 bg-zinc-900/20">
               <img
                 src={kevenPhoto}
-                alt="Kevones — Idealizador da Wiven"
+                alt="Kevones, idealizador da Wiven"
                 className="absolute inset-0 w-full h-full object-cover"
                 loading="lazy"
               />
@@ -62,7 +62,7 @@ export function FounderSection() {
           >
             <div className="flex flex-wrap items-center gap-2 mb-4">
               <h3 className="text-2xl md:text-3xl font-bold text-white">Kevones</h3>
-              <span className="text-sm text-zinc-500">— Idealizador da Wiven</span>
+              <span className="text-sm text-zinc-500">Idealizador da Wiven</span>
             </div>
             <p className="text-zinc-400 mb-6 leading-relaxed">
               Especialista em tráfego pago e operações digitais, conhecido por construir estratégias
@@ -93,10 +93,10 @@ export function FounderSection() {
             <Rocket className="w-7 h-7 text-white -rotate-12 stroke-[1.5]" />
           </div>
 
-          <h3 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight max-w-4xl mx-auto mb-6 text-center">
+          <h3 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight max-w-4xl mx-auto mb-6 text-center text-balance">
             Escale com uma <span className="text-[#0a4cff]">estrutura feita</span>
-            <br />
-            para sua operação
+            <br className="hidden md:block" />
+            {' '}para sua operação
           </h3>
 
           <p className="max-w-2xl mx-auto text-zinc-400 text-center text-sm md:text-base leading-relaxed mb-8">

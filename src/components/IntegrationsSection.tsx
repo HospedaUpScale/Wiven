@@ -1,22 +1,22 @@
 import { Bot, MousePointerClick, Megaphone, MonitorPlay, FileText, MoreHorizontal, Code2, Webhook } from 'lucide-react';
 import { SectionHeader } from './SectionHeader';
-import sellfluxLogo from '@/assets/integrations/sellflux.png';
+import sellfluxLogo from '@/assets/integrations/sellflux.webp';
 import mailchimpLogo from '@/assets/integrations/mailchimp.svg';
 import reportanaLogo from '@/assets/integrations/reportana.svg';
 import voxuyLogo from '@/assets/integrations/voxuy.webp';
 import otimizeyLogo from '@/assets/integrations/otimizey.jpg';
 import utmifyLogo from '@/assets/integrations/utmify.jpg';
 import nemuLogo from '@/assets/integrations/nemu.avif';
-import hotzappLogo from '@/assets/integrations/hotzapp.png';
-import activeCampaignLogo from '@/assets/integrations/activecampaign.png';
+import hotzappLogo from '@/assets/integrations/hotzapp.webp';
+import activeCampaignLogo from '@/assets/integrations/activecampaign.webp';
 import smsFunnelLogo from '@/assets/integrations/smsfunnel.webp';
 import astronMembersLogo from '@/assets/integrations/astron-members.jpg';
 import memberKitLogo from '@/assets/integrations/memberkit.svg';
-import cademiLogo from '@/assets/integrations/cademi.png';
+import cademiLogo from '@/assets/integrations/cademi.webp';
 import theMembersLogo from '@/assets/integrations/the-members.jpg';
-import leadLoversLogo from '@/assets/integrations/leadlovers.png';
-import notazzLogo from '@/assets/integrations/notazz.png';
-import spedyLogo from '@/assets/integrations/spedy.png';
+import leadLoversLogo from '@/assets/integrations/leadlovers.webp';
+import notazzLogo from '@/assets/integrations/notazz.webp';
+import spedyLogo from '@/assets/integrations/spedy.webp';
 
 type Integration = {
   name: string;

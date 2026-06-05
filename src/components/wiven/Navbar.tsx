@@ -48,7 +48,7 @@ export function Navbar() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-black/30 border-b border-zinc-900/40 h-20 flex items-center">
-      <div className="container mx-auto px-6 md:px-12 flex items-center justify-between w-full relative">
+      <div className="container mx-auto px-4 md:px-6 flex items-center justify-between w-full relative">
         <Link
           to={{ pathname: '/', hash: 'inicio' }}
           onClick={(e) => {
@@ -58,7 +58,7 @@ export function Navbar() {
             }
           }}
           className="flex-shrink-0"
-          aria-label="Wiven — início"
+          aria-label="Wiven, início"
         >
           <WivenLogo className="h-7 w-auto" />
         </Link>

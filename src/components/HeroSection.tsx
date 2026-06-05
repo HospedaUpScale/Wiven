@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
-import wivenLogo from '@/assets/wiven-icon-app.png';
+import wivenLogo from '@/assets/wiven-icon-app.webp';
 
 export const HeroSection = () => {
   return (

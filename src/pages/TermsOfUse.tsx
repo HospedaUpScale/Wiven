@@ -10,7 +10,7 @@ import {
 export default function TermsOfUse() {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <div className="container mx-auto px-4 py-12 max-w-4xl">
+      <div className="container mx-auto px-4 md:px-6 py-12 max-w-4xl">
         <Link 
           to="/" 
           className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors mb-8"
@@ -159,9 +159,9 @@ export default function TermsOfUse() {
               <h4 className="text-lg font-semibold text-foreground mt-6 mb-3">4. Monitoramento</h4>
               <p className="mb-4">Através da área responsável é realizado monitoramento e seleção de transações que permitam analisar padrões estranhos e detectar possíveis fraudes. Parâmetros utilizados:</p>
               <ul className="list-disc pl-6 space-y-2 mb-4">
-                <li>Monitoramento de atualização da conta – Detecção de alterações cadastrais, mudanças de senha, telefone, endereço, nome de usuário;</li>
-                <li>Análise de Comportamento – Analisa o valor das transações, seu volume, a natureza, a habitualidade;</li>
-                <li>Capacidade financeira – Certifica se as transações realizadas apresentam compatibilidade com a capacidade financeira do cliente;</li>
+                <li>Monitoramento de atualização da conta: detecção de alterações cadastrais, mudanças de senha, telefone, endereço, nome de usuário;</li>
+                <li>Análise de Comportamento: analisa o valor das transações, seu volume, a natureza, a habitualidade;</li>
+                <li>Capacidade financeira: certifica se as transações realizadas apresentam compatibilidade com a capacidade financeira do cliente;</li>
                 <li>Local utilizado para transação;</li>
                 <li>Verificação de operações com pessoas expostas politicamente.</li>
               </ul>
@@ -232,11 +232,11 @@ export default function TermsOfUse() {
               <h4 className="text-lg font-semibold text-foreground mt-6 mb-3">3. Normas de Referência</h4>
               <p className="mb-4">A WIVEN PAGAMENTOS, TECNOLOGIA E SERVICOS LTDA busca respeitar toda legislação relacionada ao assunto, em especial:</p>
               <ul className="list-disc pl-6 space-y-2 mb-4">
-                <li>Lei nº 9.613, de 3 de março de 1998 - Dispõe sobre os crimes de "lavagem" ou ocultação de bens, direitos e valores;</li>
-                <li>Lei nº 12.846, de 1º de agosto de 2013 - Dispõe sobre a responsabilização administrativa e civil de pessoas jurídicas;</li>
-                <li>BACEN Circular nº 3.978 de 23/01/2020 - Dispõe sobre a política, os procedimentos e os controles internos;</li>
-                <li>BACEN Carta Circular nº 4.001 de 29/01/2020 - Divulga relação de operações e situações que podem configurar indícios;</li>
-                <li>Resolução CVM nº 50, de 31/08/2021 - Dispõe sobre a prevenção à lavagem de dinheiro no mercado de valores mobiliários.</li>
+                <li>Lei nº 9.613, de 3 de março de 1998, que dispõe sobre os crimes de "lavagem" ou ocultação de bens, direitos e valores;</li>
+                <li>Lei nº 12.846, de 1º de agosto de 2013, que dispõe sobre a responsabilização administrativa e civil de pessoas jurídicas;</li>
+                <li>BACEN Circular nº 3.978 de 23/01/2020, que dispõe sobre a política, os procedimentos e os controles internos;</li>
+                <li>BACEN Carta Circular nº 4.001 de 29/01/2020, que divulga relação de operações e situações que podem configurar indícios;</li>
+                <li>Resolução CVM nº 50, de 31/08/2021, que dispõe sobre a prevenção à lavagem de dinheiro no mercado de valores mobiliários.</li>
               </ul>
 
               <h4 className="text-lg font-semibold text-foreground mt-6 mb-3">4. Auditoria Interna</h4>
@@ -447,8 +447,8 @@ export default function TermsOfUse() {
         </Accordion>
 
         <div className="mt-12 pt-8 border-t border-border/30 text-center text-xs text-muted-foreground">
-          <p><strong>WIVEN PAGAMENTOS, TECNOLOGIA E SERVICOS LTDA</strong> • CNPJ: 66.032.062/0001-93</p>
-          <p className="mt-2">R 5, 691, Quadra C-4 Lote 16E - Set Oeste, Goiânia - GO, CEP 74.115-060 • suportewiven@gmail.com</p>
+          <p><strong>WIVEN PAGAMENTOS, TECNOLOGIA E SERVICOS LTDA</strong> • CNPJ: 66.032.062/0001 93</p>
+          <p className="mt-2">R 5, 691, Quadra C4 Lote 16E, Set Oeste, Goiânia, GO, CEP 74.115.060 • <a href="mailto:contato@wiven.com.br" className="hover:text-foreground transition-colors">contato@wiven.com.br</a></p>
         </div>
       </div>
     </div>

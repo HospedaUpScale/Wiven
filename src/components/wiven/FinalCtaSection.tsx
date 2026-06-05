@@ -15,7 +15,7 @@ export function FinalCtaSection() {
         style={{ background: 'radial-gradient(ellipse, #0a4cff22 0%, transparent 70%)' }}
       />
 
-      <div className="relative z-10 flex flex-col items-center text-center max-w-4xl mx-auto px-4">
+      <div className="relative z-10 flex flex-col items-center text-center max-w-4xl mx-auto px-4 md:px-6">
         <motion.h2
           className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-[-0.04em] text-white mb-6 leading-[1.08]"
           initial={{ opacity: 0, y: 32 }}

@@ -8,13 +8,13 @@ import {
 } from 'framer-motion';
 import { Trophy } from 'lucide-react';
 import wivenEagleSilhouette from '@/assets/wiven-logo.svg';
-import award10K from '@/assets/awards/10K.png';
-import award100K from '@/assets/awards/100K.png';
-import award500K from '@/assets/awards/500K.png';
-import award1M from '@/assets/awards/1M.png';
-import award5M from '@/assets/awards/5M.png';
-import award10M from '@/assets/awards/10M.png';
-import award25M from '@/assets/awards/25M.png';
+import award10K from '@/assets/awards/10K.webp';
+import award100K from '@/assets/awards/100K.webp';
+import award500K from '@/assets/awards/500K.webp';
+import award1M from '@/assets/awards/1M.webp';
+import award5M from '@/assets/awards/5M.webp';
+import award10M from '@/assets/awards/10M.webp';
+import award25M from '@/assets/awards/25M.webp';
 
 type Milestone = {
   key: string;
@@ -101,7 +101,7 @@ const milestones: Milestone[] = [
     title: 'Cruzeiro Internacional',
     highlight: 'Autoridade não se diz. Se reconhece.',
     description:
-      'Navegue pelos mares mais exclusivos do mundo a bordo de um transatlântico de ultra-luxo, com tudo pago no padrão Wiven.',
+      'Navegue pelos mares mais exclusivos do mundo a bordo de um transatlântico de ultra luxo, com tudo pago no padrão Wiven.',
     image: award10M,
     heroImage: '/premiacoes/cruzeiro.jpg',
   },
@@ -112,7 +112,7 @@ const milestones: Milestone[] = [
     title: 'Experiência Suíça',
     highlight: 'Você não construiu faturamento, você construiu uma história!',
     description:
-      'O topo absoluto. Uma jornada inesquecível pelos Alpes Suíços, hospedando-se em resorts cinco estrelas e vivenciando o ápice do mercado.',
+      'O topo absoluto. Uma jornada inesquecível pelos Alpes Suíços, com estadia em resorts cinco estrelas e vivenciando o ápice do mercado.',
     image: award25M,
     heroImage: '/premiacoes/suica.jpg',
   },
@@ -270,7 +270,7 @@ export function AwardsSection() {
         style={{ background: 'radial-gradient(ellipse, #0a4cff20 0%, transparent 70%)' }}
       />
 
-      <div className="container mx-auto px-5 sm:px-8 md:px-6 relative z-10">
+      <div className="container mx-auto px-4 md:px-6 relative z-10">
         <motion.div
           className="max-w-3xl mx-auto text-center mb-10 md:mb-14"
           initial={{ opacity: 0, y: 32 }}

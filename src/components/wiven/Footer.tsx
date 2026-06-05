@@ -16,7 +16,7 @@ const linkGroups = [
       { label: 'Premiações', href: '#premiacoes' },
       { label: 'Suporte', href: '#support' },
       { label: 'FAQ', href: '#faq' },
-      { label: 'Contato', href: 'mailto:suportewiven@gmail.com' },
+      { label: 'Contato', href: 'mailto:contato@wiven.com.br' },
     ],
   },
   {
@@ -31,7 +31,7 @@ const linkGroups = [
 export function Footer() {
   return (
     <footer id="footer" aria-label="Footer" className="relative border-t border-zinc-800/60 py-14 sm:py-16 md:py-20">
-      <div className="container mx-auto px-5 sm:px-8 md:px-6">
+      <div className="container mx-auto px-4 md:px-6">
         <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8 mb-12">
           <div className="sm:col-span-2 lg:col-span-2">
             <WivenLogo className="h-9 w-auto mb-5 opacity-90" />
@@ -68,11 +68,11 @@ export function Footer() {
             <p className="text-center md:text-right">
               <strong className="text-zinc-500">WIVEN PAGAMENTOS, TECNOLOGIA E SERVICOS LTDA</strong>
               {' · '}
-              CNPJ 66.032.062/0001-93
+              CNPJ 66.032.062/0001 93
             </p>
           </div>
           <p className="text-[11px] text-zinc-600 text-center md:text-left mt-3 leading-relaxed">
-            R 5, 691, Quadra C-4 Lote 16E — Set Oeste, Goiânia - GO, CEP 74.115-060 · suportewiven@gmail.com
+            R 5, 691, Quadra C4 Lote 16E, Set Oeste, Goiânia, GO, CEP 74.115.060 · contato@wiven.com.br
           </p>
         </div>
       </div>

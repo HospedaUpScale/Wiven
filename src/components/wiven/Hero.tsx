@@ -90,7 +90,7 @@ export function Hero() {
         ))}
         </div>
 
-        <div className="container mx-auto px-5 sm:px-8 md:px-4 relative z-20">
+        <div className="container mx-auto px-4 md:px-6 relative z-20">
           <motion.div
             className="max-w-5xl mx-auto text-center"
             variants={staggerContainer}
@@ -110,12 +110,12 @@ export function Hero() {
 
             <motion.h1
               variants={fadeUp}
-              className="text-[1.75rem] sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-[1.15] tracking-tight mb-4 sm:mb-8 text-balance max-w-4xl mx-auto"
+              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-[1.15] tracking-tight mb-4 sm:mb-8 text-balance max-w-4xl mx-auto"
             >
               <span className="hero-headline-tech text-white">
                 O ecossistema de pagamentos para quem quer{' '}
               </span>
-              <span className="gradient-text whitespace-nowrap">crescer de verdade</span>
+              <span className="gradient-text">crescer de verdade</span>
             </motion.h1>
 
             <motion.p
@@ -123,8 +123,8 @@ export function Hero() {
               className="text-sm sm:text-lg md:text-xl max-w-2xl mx-auto mb-8 sm:mb-12 leading-relaxed bg-gradient-to-b from-zinc-300 to-zinc-500 bg-clip-text text-transparent"
             >
               Voe mais alto. Escale com constância. Um ecossistema completo para operações digitais que
-              querem sair do improviso e construir algo grande de verdade tecnologia, tráfego, retenção,
-              monetização e crescimento trabalhando juntos.
+              querem sair do improviso e construir algo grande de verdade, com tecnologia, tráfego,
+              retenção, monetização e crescimento trabalhando juntos.
             </motion.p>
 
             <motion.div variants={fadeUp}>

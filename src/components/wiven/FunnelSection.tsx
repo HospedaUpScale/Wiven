@@ -16,7 +16,7 @@ import wivenEagleSilhouette from '@/assets/wiven-logo.svg';
 const steps = [
   {
     icon: TrendingUp,
-    title: 'Upsell 1-clique',
+    title: 'Upsell de 1 clique',
     description:
       'Oferte um segundo produto logo após a aprovação do pagamento, sem que o cliente precise digitar o cartão novamente.',
   },
@@ -105,8 +105,8 @@ const edgeColorMap = {
 
 const dNodes: NodeData[] = [
   { id: 'checkout', icon: Flag, title: 'Checkout', subtitle: 'Oferta • R$ 297', tone: 'primary', x: 3, y: 42 },
-  { id: 'upsell1', icon: TrendingUp, title: 'Upsell 1-Click', subtitle: 'Premium • R$ 497', tone: 'success', x: 28, y: 12 },
-  { id: 'upsell2', icon: TrendingUp, title: 'Upsell 1-Click', subtitle: 'VIP • R$ 397', tone: 'success', x: 53, y: 12 },
+  { id: 'upsell1', icon: TrendingUp, title: 'Upsell de 1 clique', subtitle: 'Premium • R$ 497', tone: 'success', x: 28, y: 12 },
+  { id: 'upsell2', icon: TrendingUp, title: 'Upsell de 1 clique', subtitle: 'VIP • R$ 397', tone: 'success', x: 53, y: 12 },
   { id: 'downsell', icon: ShoppingBag, title: 'Downsell', subtitle: 'Alternativa • R$ 97', tone: 'danger', x: 28, y: 72 },
   { id: 'obrigado', icon: Heart, title: 'Obrigado', subtitle: 'Página final', tone: 'amber', x: 78, y: 42 },
 ];
@@ -123,9 +123,9 @@ const dCursor = { left: ['14%', '38%', '62%', '86%', '62%', '14%'], top: ['50%',
 
 const mNodes: NodeData[] = [
   { id: 'checkout', icon: Flag, title: 'Checkout', subtitle: 'Oferta • R$ 297', tone: 'primary', x: 6, y: 4 },
-  { id: 'upsell1', icon: TrendingUp, title: 'Upsell 1-Click', subtitle: 'Premium • R$ 497', tone: 'success', x: 6, y: 27 },
+  { id: 'upsell1', icon: TrendingUp, title: 'Upsell de 1 clique', subtitle: 'Premium • R$ 497', tone: 'success', x: 6, y: 27 },
   { id: 'downsell', icon: ShoppingBag, title: 'Downsell', subtitle: 'R$ 97', tone: 'danger', x: 54, y: 27 },
-  { id: 'upsell2', icon: TrendingUp, title: 'Upsell 1-Click', subtitle: 'VIP • R$ 397', tone: 'success', x: 6, y: 51 },
+  { id: 'upsell2', icon: TrendingUp, title: 'Upsell de 1 clique', subtitle: 'VIP • R$ 397', tone: 'success', x: 6, y: 51 },
   { id: 'obrigado', icon: Heart, title: 'Obrigado', subtitle: 'Página final', tone: 'amber', x: 30, y: 76 },
 ];
 const M_NODE_W = 40;
@@ -434,7 +434,7 @@ export function FunnelSection() {
         />
       ))}
 
-      <div className="container mx-auto px-5 sm:px-8 md:px-6 relative z-10">
+      <div className="container mx-auto px-4 md:px-6 relative z-10">
         <motion.div
           className="max-w-3xl mx-auto text-center mb-14 md:mb-16"
           initial={{ opacity: 0, y: 32 }}

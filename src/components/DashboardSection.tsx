@@ -19,14 +19,14 @@ import {
   CreditCard,
 } from 'lucide-react';
 import wivenLogo from '@/assets/wiven-logo-full.svg';
-import wivenPlaque from '@/assets/wiven-plaque.png';
-import award10K from '@/assets/awards/10K.png';
-import award100K from '@/assets/awards/100K.png';
-import award500K from '@/assets/awards/500K.png';
-import award1M from '@/assets/awards/1M.png';
-import award5M from '@/assets/awards/5M.png';
-import award10M from '@/assets/awards/10M.png';
-import award25M from '@/assets/awards/25M.png';
+import wivenPlaque from '@/assets/wiven-plaque.webp';
+import award10K from '@/assets/awards/10K.webp';
+import award100K from '@/assets/awards/100K.webp';
+import award500K from '@/assets/awards/500K.webp';
+import award1M from '@/assets/awards/1M.webp';
+import award5M from '@/assets/awards/5M.webp';
+import award10M from '@/assets/awards/10M.webp';
+import award25M from '@/assets/awards/25M.webp';
 
 // ─────────────────────────────────────────────────────────
 // Evolution: revenue grows through milestones 10K → 100K → 500K → 1M.
@@ -110,7 +110,7 @@ const EvolutionProvider = ({ children, active }: { children: React.ReactNode; ac
   );
 };
 import kevenPhoto from '@/assets/keven-founder.jpeg';
-import wivenIconBlue from '@/assets/wiven-icon-blue.png';
+import wivenIconBlue from '@/assets/wiven-icon-blue.webp';
 
 const PixIcon = ({ className = '' }: { className?: string }) => (
   <svg viewBox="0 0 24 24" className={className} fill="currentColor">

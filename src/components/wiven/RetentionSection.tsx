@@ -45,7 +45,7 @@ const features = [
   {
     icon: Lock,
     title: 'Conteúdo Protegido',
-    description: 'Anti-pirataria e liberação progressiva de módulos.',
+    description: 'Proteção contra pirataria e liberação progressiva de módulos.',
   },
   {
     icon: Smartphone,
@@ -89,7 +89,7 @@ export function RetentionSection() {
         style={{ background: 'radial-gradient(circle, #0a4cff18 0%, transparent 70%)' }}
       />
 
-      <div className="container mx-auto px-5 sm:px-8 md:px-6 relative z-10">
+      <div className="container mx-auto px-4 md:px-6 relative z-10">
         <motion.div
           className="max-w-3xl mx-auto text-center"
           initial={{ opacity: 0, y: 32 }}
@@ -207,7 +207,7 @@ export function RetentionSection() {
                   >
                     <img
                       src={heroFacebookAds}
-                      alt="Aula em destaque — Facebook Ads"
+                      alt="Aula em destaque, Facebook Ads"
                       className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black via-black/55 to-transparent" />
@@ -226,7 +226,7 @@ export function RetentionSection() {
                           className="text-white text-sm font-bold leading-tight"
                           style={{ textShadow: '0 2px 16px rgba(0,0,0,0.9), 0 1px 4px rgba(10,76,255,0.4)' }}
                         >
-                          Facebook Ads — Creative & Structure
+                          Facebook Ads: Creative & Structure
                         </h4>
                       </div>
                       <button

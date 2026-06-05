@@ -9,7 +9,7 @@ export function GuaranteeSection() {
         style={{ background: 'radial-gradient(circle, #0a4cff18 0%, transparent 70%)' }}
       />
 
-      <div className="container mx-auto px-5 sm:px-8 md:px-6 relative z-10">
+      <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center max-w-5xl mx-auto">
           <motion.div
             className="flex justify-center lg:justify-start"

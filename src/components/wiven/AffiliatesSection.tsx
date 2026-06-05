@@ -265,7 +265,7 @@ export function AffiliatesSection() {
         />
       ))}
 
-      <div className="container mx-auto px-5 sm:px-8 md:px-6 relative z-10">
+      <div className="container mx-auto px-4 md:px-6 relative z-10">
         <motion.header
           className="max-w-4xl mx-auto text-center"
           initial={{ opacity: 0, y: 28 }}

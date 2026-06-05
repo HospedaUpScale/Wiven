@@ -176,7 +176,7 @@ export function MigrationSection() {
         style={{ background: 'radial-gradient(ellipse, #0a4cff18 0%, transparent 70%)' }}
       />
 
-      <div className="container mx-auto px-4 sm:px-6 relative z-10">
+      <div className="container mx-auto px-4 md:px-6 relative z-10">
         <motion.div
           className="flex flex-col items-center text-center max-w-4xl mx-auto z-10 relative"
           initial={{ opacity: 0, y: 28 }}
@@ -187,7 +187,7 @@ export function MigrationSection() {
           <span className="inline-block px-4 py-1.5 rounded-full text-sm font-medium text-[#0a4cff] border border-[#0a4cff]/20 bg-[#0a4cff]/10">
             Migração assistida
           </span>
-          <h2 className="text-white text-3xl md:text-5xl font-bold tracking-tight mt-4 text-center whitespace-nowrap">
+          <h2 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mt-4 text-center text-balance">
             Migrar para a Wiven é{' '}
             <span className="bg-gradient-to-r from-[#0a4cff] to-blue-400 bg-clip-text text-transparent">
               simples
@@ -195,7 +195,7 @@ export function MigrationSection() {
           </h2>
           <p className="text-zinc-400 text-sm md:text-base mt-4 max-w-2xl leading-relaxed">
             A maioria dos players acha que trocar de plataforma é complicado. Na prática, nossa equipe
-            faz praticamente tudo para você — de forma rápida e organizada.
+            faz praticamente tudo para você, de forma rápida e organizada.
           </p>
         </motion.div>
 

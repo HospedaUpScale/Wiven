@@ -18,7 +18,7 @@ function ArticleContent({ article }: { article: HelpArticle }) {
         <span className="text-blue-500 font-medium">{article.categoriaLabel}</span>
       </p>
 
-      <h1 className="text-3xl sm:text-4xl md:text-[2.5rem] font-bold tracking-tight text-white leading-tight">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white leading-tight text-balance">
         {article.titulo}
       </h1>
 
@@ -87,8 +87,8 @@ export default function HelpCenterPage() {
   return (
     <div className="bg-black text-white min-h-screen font-sans selection:bg-blue-600/30">
       <header className="border-b border-zinc-800/80 bg-black/95 backdrop-blur-md sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between gap-4">
-          <Link to="/" className="flex-shrink-0" aria-label="Wiven — início">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 py-5 flex items-center justify-between gap-4">
+          <Link to="/" className="flex-shrink-0" aria-label="Wiven, início">
             <WivenLogo className="h-7 w-auto" />
           </Link>
           <Link
@@ -99,7 +99,7 @@ export default function HelpCenterPage() {
           </Link>
         </div>
 
-        <div className="max-w-3xl mx-auto px-6 pb-8">
+        <div className="max-w-3xl mx-auto px-4 md:px-6 pb-8">
           <div className="relative bg-zinc-900/50 border border-zinc-800 rounded-2xl focus-within:border-blue-600 transition-colors flex items-center gap-3 px-5 py-4">
             <Search className="w-5 h-5 text-zinc-500 flex-shrink-0" />
             <input
@@ -133,8 +133,8 @@ export default function HelpCenterPage() {
         </div>
       </header>
 
-      <div className="grid grid-cols-1 lg:grid-cols-12 max-w-7xl mx-auto min-h-[calc(100vh-200px)] gap-8 px-6 pt-8 pb-20">
-        <aside className="lg:col-span-4 border-b lg:border-b-0 lg:border-r border-zinc-800/80 pb-8 lg:pb-0 lg:pr-4">
+      <div className="grid grid-cols-1 lg:grid-cols-12 max-w-7xl mx-auto min-h-[calc(100vh-200px)] gap-8 px-4 md:px-6 pt-8 pb-20">
+        <aside className="order-1 lg:order-none lg:col-span-4 border-b lg:border-b-0 lg:border-r border-zinc-800/80 pb-8 lg:pb-0 lg:pr-4">
           <h1 className="text-lg font-semibold text-white mb-6 tracking-tight">Central de Ajuda</h1>
           <nav className="space-y-8" aria-label="Perguntas frequentes">
             {grouped.map((group) => (
@@ -164,7 +164,7 @@ export default function HelpCenterPage() {
           </nav>
         </aside>
 
-        <article className="lg:col-span-8 min-w-0 pt-0 lg:pt-0">
+        <article className="order-2 lg:order-none lg:col-span-8 min-w-0 pt-0 lg:pt-0">
           <ArticleContent article={activeArticle} />
         </article>
       </div>

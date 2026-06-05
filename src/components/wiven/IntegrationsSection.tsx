@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import { motion } from 'framer-motion';
 import wivenEagleSilhouette from '@/assets/wiven-logo.svg';
 import mailchimpLogo from '@/assets/integrations/mailchimp.svg';
-import sellfluxLogo from '@/assets/integrations/sellflux.png';
+import sellfluxLogo from '@/assets/integrations/sellflux.webp';
 import voxuyLogo from '@/assets/integrations/voxuy.webp';
 import reportanaLogo from '@/assets/integrations/reportana.svg';
 import apiLogo from '@/assets/integrations/api.svg';
@@ -10,16 +10,16 @@ import webhooksLogo from '@/assets/integrations/webhooks.svg';
 import otimizeyLogo from '@/assets/integrations/otimizey.jpg';
 import utmifyLogo from '@/assets/integrations/utmify.jpg';
 import nemuLogo from '@/assets/integrations/nemu.avif';
-import hotzappLogo from '@/assets/integrations/hotzapp.png';
-import activeCampaignLogo from '@/assets/integrations/activecampaign.png';
+import hotzappLogo from '@/assets/integrations/hotzapp.webp';
+import activeCampaignLogo from '@/assets/integrations/activecampaign.webp';
 import smsFunnelLogo from '@/assets/integrations/smsfunnel.webp';
 import astronMembersLogo from '@/assets/integrations/astron-members.jpg';
 import memberKitLogo from '@/assets/integrations/memberkit.svg';
-import cademiLogo from '@/assets/integrations/cademi.png';
+import cademiLogo from '@/assets/integrations/cademi.webp';
 import theMembersLogo from '@/assets/integrations/the-members.jpg';
-import notazzLogo from '@/assets/integrations/notazz.png';
-import spedyLogo from '@/assets/integrations/spedy.png';
-import leadLoversLogo from '@/assets/integrations/leadlovers.png';
+import notazzLogo from '@/assets/integrations/notazz.webp';
+import spedyLogo from '@/assets/integrations/spedy.webp';
+import leadLoversLogo from '@/assets/integrations/leadlovers.webp';
 
 type Integration = {
   name: string;
@@ -108,7 +108,7 @@ export function IntegrationsSection() {
         />
       ))}
 
-      <div className="container mx-auto px-5 sm:px-8 md:px-6 relative z-10">
+      <div className="container mx-auto px-4 md:px-6 relative z-10">
         <motion.header
           className="max-w-5xl mx-auto text-center"
           initial={{ opacity: 0, y: 28 }}
@@ -121,7 +121,7 @@ export function IntegrationsSection() {
           </span>
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-white mb-4 sm:mb-5 text-center max-w-5xl mx-auto leading-tight">
             Conecte a Wiven com{' '}
-            <span className="bg-gradient-to-r from-[#0a4cff] to-blue-400 bg-clip-text text-transparent whitespace-nowrap">
+            <span className="bg-gradient-to-r from-[#0a4cff] to-blue-400 bg-clip-text text-transparent">
               tudo que você já usa
             </span>
           </h2>

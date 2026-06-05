@@ -3,13 +3,13 @@ import { SectionHeader } from './SectionHeader';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Trophy } from 'lucide-react';
 
-import award10K from '@/assets/awards/10K.png';
-import award100K from '@/assets/awards/100K.png';
-import award500K from '@/assets/awards/500K.png';
-import award1M from '@/assets/awards/1M.png';
-import award5M from '@/assets/awards/5M.png';
-import award10M from '@/assets/awards/10M.png';
-import award25M from '@/assets/awards/25M.png';
+import award10K from '@/assets/awards/10K.webp';
+import award100K from '@/assets/awards/100K.webp';
+import award500K from '@/assets/awards/500K.webp';
+import award1M from '@/assets/awards/1M.webp';
+import award5M from '@/assets/awards/5M.webp';
+import award10M from '@/assets/awards/10M.webp';
+import award25M from '@/assets/awards/25M.webp';
 
 type Milestone = {
   key: string;

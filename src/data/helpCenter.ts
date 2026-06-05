@@ -152,7 +152,7 @@ export const helpArticles: HelpArticle[] = [
       {
         heading: 'Configuração flexível',
         paragraphs: [
-          'Você cria produtos com regras de acesso, entregáveis e comunicação pós-venda adaptadas ao formato do seu serviço, sem depender de ferramentas paralelas.',
+          'Você cria produtos com regras de acesso, entregáveis e comunicação após a venda adaptadas ao formato do seu serviço, sem depender de ferramentas paralelas.',
         ],
       },
     ],
@@ -209,12 +209,12 @@ export const helpArticles: HelpArticle[] = [
           'Nossa equipe de suporte está disponível 24 horas por dia, 7 dias por semana para acompanhar sua operação.',
         ],
         callout:
-          'Canais oficiais: chat na plataforma, e-mail e WhatsApp. O tempo médio de primeira resposta é de poucos minutos em horário comercial estendido.',
+          'Canais oficiais: chat na plataforma, email e WhatsApp. O tempo médio de primeira resposta é de poucos minutos em horário comercial estendido.',
       },
       {
         heading: 'Antes de abrir um chamado',
         paragraphs: [
-          'Tenha em mãos o ID da transação ou o e-mail da conta vinculada. Isso acelera a análise e reduz idas e vindas no atendimento.',
+          'Tenha em mãos o ID da transação ou o email da conta vinculada. Isso acelera a análise e reduz idas e vindas no atendimento.',
         ],
       },
     ],

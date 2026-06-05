@@ -98,7 +98,7 @@ export function CheckoutFeatures() {
         />
       ))}
 
-      <div className="container mx-auto px-5 sm:px-8 md:px-6 relative z-10">
+      <div className="container mx-auto px-4 md:px-6 relative z-10">
         <motion.div
           className="relative max-w-3xl mx-auto text-center mb-14 md:mb-20"
           variants={headerStagger}

@@ -2,7 +2,6 @@ import { DashboardSection } from '@/components/DashboardSection';
 import {
   Hero,
   CheckoutFeatures,
-  RetentionSection,
   FunnelSection,
   GrowthStructure,
   AffiliatesSection,
@@ -22,7 +21,6 @@ const Index = () => {
       <Hero />
       <DashboardSection />
       <CheckoutFeatures />
-      <RetentionSection />
       <FunnelSection />
       <GrowthStructure />
       <AffiliatesSection />
