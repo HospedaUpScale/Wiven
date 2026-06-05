@@ -97,31 +97,13 @@ export function Hero() {
             initial="hidden"
             animate="visible"
           >
-            {/* Eagle logo — massive vector + subtle central glow + metallic shimmer */}
+            {/* Eagle logo — vector silhouette with contour glow only */}
             <motion.div variants={fadeUp} className="relative mb-1 sm:mb-2 mx-auto w-fit">
-              <div
-                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[480px] h-[480px] bg-[#051c5e]/30 rounded-full blur-[150px] -z-10 pointer-events-none"
-                aria-hidden="true"
-              />
-              <div className="relative w-56 h-56 sm:w-64 sm:h-64">
+              <div className="relative w-56 h-56 sm:w-64 sm:h-64 mx-auto bg-transparent">
                 <img
                   src={wivenEagleSilhouette}
                   alt="Wiven"
-                  className="relative w-full h-full object-contain animate-float"
-                />
-                <div
-                  className="hero-eagle-shimmer absolute inset-0 pointer-events-none"
-                  style={{
-                    WebkitMaskImage: `url(${wivenEagleSilhouette})`,
-                    maskImage: `url(${wivenEagleSilhouette})`,
-                    WebkitMaskSize: 'contain',
-                    maskSize: 'contain',
-                    WebkitMaskRepeat: 'no-repeat',
-                    maskRepeat: 'no-repeat',
-                    WebkitMaskPosition: 'center',
-                    maskPosition: 'center',
-                  }}
-                  aria-hidden="true"
+                  className="relative w-full h-full object-contain animate-float filter drop-shadow-[0_0_25px_rgba(10,76,255,0.45)] drop-shadow-[0_0_50px_rgba(10,76,255,0.2)] mix-blend-screen"
                 />
               </div>
             </motion.div>
