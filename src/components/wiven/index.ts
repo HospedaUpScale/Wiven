@@ -1,0 +1,16 @@
+export { Navbar } from './Navbar';
+export { Hero } from './Hero';
+export { CheckoutFeatures } from './CheckoutFeatures';
+export { RetentionSection } from './RetentionSection';
+export { FunnelSection } from './FunnelSection';
+export { GrowthStructure } from './GrowthStructure';
+export { AffiliatesSection } from './AffiliatesSection';
+export { IntegrationsSection } from './IntegrationsSection';
+export { MigrationSection } from './MigrationSection';
+export { SupportSection } from './SupportSection';
+export { AwardsSection } from './AwardsSection';
+export { FounderSection } from './FounderSection';
+export { GuaranteeSection } from './GuaranteeSection';
+export { FAQ } from './FAQ';
+export { FinalCtaSection } from './FinalCtaSection';
+export { Footer } from './Footer';
