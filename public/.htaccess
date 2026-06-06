@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} ^(www\.)?wiven\.com\.br$ [NC]
+  RewriteRule ^(.*)$ https://app.wiven.com.br/auth/register [R=302,L]
+</IfModule>

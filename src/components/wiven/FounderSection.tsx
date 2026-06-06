@@ -35,24 +35,16 @@ export function FounderSection() {
         </motion.div>
 
         <div className="max-w-5xl mx-auto grid lg:grid-cols-[1fr_1.5fr] gap-10 items-center mb-16 md:mb-20">
-          <motion.div
-            className="relative mx-auto"
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
+          <motion.img
+            src={kevenPhoto}
+            alt="Kevones, idealizador da Wiven"
+            loading="lazy"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-          >
-            <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-3xl overflow-hidden border border-zinc-800/60 bg-zinc-900/20">
-              <img
-                src={kevenPhoto}
-                alt="Kevones, idealizador da Wiven"
-                className="absolute inset-0 w-full h-full object-cover"
-                loading="lazy"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#0a4cff]/20 via-transparent to-transparent pointer-events-none" />
-            </div>
-            <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-[#0a4cff]/20 rounded-full blur-3xl pointer-events-none" />
-          </motion.div>
+            className="mx-auto block h-48 w-48 object-cover md:h-64 md:w-64 shadow-none ring-0 border-0 outline-none [clip-path:circle(37%_at_50%_44%)]"
+          />
 
           <motion.div
             initial={{ opacity: 0, x: 40 }}
